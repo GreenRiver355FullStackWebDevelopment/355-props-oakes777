@@ -3,7 +3,7 @@ import { restaurants } from "../data/data.js";
 import Restaurant from "./Restaurant.jsx";
 
 //Higher-Order Components
-function RestaurantsContainer(props) {
+function RestaurantsContainer() {
   return (
     <div className="restaurantContainer">
       {restaurants.map((restaurant) => (
